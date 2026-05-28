@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Mediatek86.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,10 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
@@ -116,6 +121,17 @@
       <DependentUpon>FrmAbsences.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="bddmanager\BddManager.cs" />
+    <Compile Include="bddmanager\NamespaceDoc.cs" />
+    <Compile Include="dal\Access.cs" />
+    <Compile Include="dal\NamespaceDoc.cs" />
+    <Compile Include="modele\Absence.cs" />
+    <Compile Include="modele\Motif.cs" />
+    <Compile Include="modele\Personnel.cs" />
+    <Compile Include="modele\Service.cs" />
+    <Compile Include="modele\NamespaceDoc.cs" />
+    <Compile Include="vue\NamespaceDoc.cs" />
+    <Compile Include="NamespaceDoc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

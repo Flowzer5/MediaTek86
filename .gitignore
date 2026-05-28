@@ -337,3 +337,10 @@ FodyWeavers.xsd
 
 # Dossier de référence cloné localement (hors dépôt)
 Devreference-habilitations/
+
+# Documentation technique SandCastle (SHFB)
+# On versionne UNIQUEMENT le ZIP final, pas les sources HTML ni les fichiers projet
+documentation/Help/
+documentation/*.shfbproj
+documentation/*.shfbproj.user
+documentation/LastBuild.log
