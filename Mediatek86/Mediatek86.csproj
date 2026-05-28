@@ -123,8 +123,10 @@
     </EmbeddedResource>
     <Compile Include="bddmanager\BddManager.cs" />
     <Compile Include="bddmanager\NamespaceDoc.cs" />
+    <Compile Include="controleur\FrmConnexionController.cs" />
     <Compile Include="dal\Access.cs" />
     <Compile Include="dal\NamespaceDoc.cs" />
+    <Compile Include="dal\ResponsableAccess.cs" />
     <Compile Include="modele\Absence.cs" />
     <Compile Include="modele\Motif.cs" />
     <Compile Include="modele\Personnel.cs" />
