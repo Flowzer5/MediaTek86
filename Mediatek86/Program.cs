@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Mediatek86.vue;
 
 namespace Mediatek86
 {
+    /// <summary>
+    /// Point d'entrée de l'application MediaTek86.
+    /// </summary>
     internal static class Program
     {
         /// <summary>
@@ -16,7 +17,7 @@ namespace Mediatek86
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmConnexion());
         }
     }
 }
