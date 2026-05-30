@@ -258,7 +258,6 @@ namespace Mediatek86.vue
 
         /// <summary>
         /// Ouvre le formulaire de gestion des absences pour le personnel sélectionné.
-        /// (Placeholder : FrmAbsences sera mis à jour avec paramètre Personnel à l'étape suivante.)
         /// </summary>
         /// <param name="sender">Source de l'événement.</param>
         /// <param name="e">Données de l'événement.</param>
@@ -270,9 +269,7 @@ namespace Mediatek86.vue
                 MessageBox.Show("Sélectionnez un personnel.", "Information");
                 return;
             }
-            MessageBox.Show("Personnel sélectionné : " + personnel, "Information");
-            new FrmAbsences().ShowDialog();
-            RafraichirLesPersonnels();
+            new FrmAbsences(personnel).ShowDialog();
         }
     }
 }
