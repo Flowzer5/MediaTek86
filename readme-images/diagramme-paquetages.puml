@@ -1,0 +1,26 @@
+@startuml diagramme-paquetages
+!theme plain
+title Diagramme de paquetages - MediaTek86
+
+skinparam packageStyle rectangle
+skinparam linetype ortho
+
+package "vue" as vue
+package "controleur" as controleur
+package "modele" as modele
+package "dal" as dal
+package "bddmanager" as bddmanager
+database "MySQL\nbdmediatek86" as mysql
+
+' Architecture en couches
+vue --> controleur
+controleur --> dal
+dal --> bddmanager
+bddmanager --> mysql
+
+' Le modèle est utilisé partout (entités métier)
+vue ..> modele
+controleur ..> modele
+dal ..> modele
+
+@enduml
