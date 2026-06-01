@@ -344,3 +344,9 @@ documentation/Help/
 documentation/*.shfbproj
 documentation/*.shfbproj.user
 documentation/LastBuild.log
+
+# Projet d'installation (on ne versionne que le .msi final dans installeur/)
+Mediatek86Setup/Debug/
+Mediatek86Setup/Release/
+Mediatek86Setup/obj/
+Mediatek86Setup/*.vdproj.vspscc
