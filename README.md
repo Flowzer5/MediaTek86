@@ -46,6 +46,12 @@ Une table supplémentaire **responsable** (login, pwd haché en SHA-256) permet 
 ### Détection de chevauchement
 ![Chevauchement](readme-images/frmAbsencesChevauchement.png)
 
+## Vidéo de démonstration
+
+Une vidéo de démonstration de l'application est disponible ici :
+
+[Voir la démo sur YouTube](https://youtu.be/ReNIVSM_bCQ)
+
 ## Diagramme de paquetages
 
 ![Diagramme de paquetages](readme-images/diagrammePaquetages.png)
